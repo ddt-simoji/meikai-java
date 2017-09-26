@@ -7,7 +7,7 @@ package ensyu01;
  */
 
 public class E_01_03 {
-
+	//各行に１文字ずつ表示する処理。（\n　で改行）
 	public static void main(String[] args) {
 		System.out.println("下\n地\n\n愛\n香");
 
