@@ -7,8 +7,9 @@ package ensyu01;
  */
 
 public class E_01_01 {
-
+//コンパイルエラーになる旨を確認する処理
 	public static void main(String[] args) {
+		//エラーの確認だが、コンパイルが通るケースを残す
 		System.out.println("test");
 
 		// ;がないときの挙動
