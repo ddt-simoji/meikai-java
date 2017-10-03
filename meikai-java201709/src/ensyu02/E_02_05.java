@@ -13,13 +13,19 @@ public class E_02_05 {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		
-		System.out.println("xの値：");    //xの値の入力を促す
-		double x = stdIn.nextDouble();   //xに整数値を読み込む
+		//xの値の入力を促す
+		System.out.println("xの値：");
+		//xに整数値を読み込む
+		double x = stdIn.nextDouble();
 		
-		System.out.println("yの値：");    //yの値の入力を促す
-		double y = stdIn.nextDouble();   //yに整数値を読み込む
+		//yの値の入力を促す
+		System.out.println("yの値：");
+		//yに整数値を読み込む
+		double y = stdIn.nextDouble();
 		
-		System.out.println("合計は" + ( x + y ) + "です。");       //計算し、合計を表示
-		System.out.println("平均は" + (( x + y) /2 ) + "です。");  //計算し、平均を表示
+		//計算し、合計を表示
+		System.out.println("合計は" + ( x + y ) + "です。");
+		//計算し、平均を表示
+		System.out.println("平均は" + (( x + y) /2 ) + "です。");
 	}
 }
