@@ -13,9 +13,12 @@ public class E_02_03 {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		
-		System.out.println("整数値：");    //xの値の入力を促す
-		int x = stdIn.nextInt();           //xに整数値を読み込む
+		//xの値の入力を促す
+		System.out.println("整数値：");
+		//xに整数値を読み込む
+		int x = stdIn.nextInt();           
 		
-		System.out.println(x + "と入力しましたね。");
+		//結果を表示する
+		System.out.println( x + "と入力しましたね。");
 	}
 }
