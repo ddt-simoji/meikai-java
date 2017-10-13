@@ -25,3 +25,5 @@ public class E_02_01 {
 	}
 
 }
+// 	考察結果：型の不一致: double から int には変換できません
+//  　　　　　型の不一致: double から int には変換できません
