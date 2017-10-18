@@ -14,18 +14,18 @@ import java.util.Random;
 public class E_02_07 {
 
 	public static void main(String[] args) {
-		// 乱数を生成するための
+		// 乱数を生成するにに必要なため標記する
 		Random rand = new Random();
-		
+
 		int num1 = rand.nextInt(9);  //0以上9未満の乱数を生成する
 		int num2 = rand.nextInt(9);  //0以上9未満の乱数を生成する
 		int num3 = rand.nextInt(90); //0以上90未満の乱数を生成する
 
-		//0以上9未満の乱数 +1 を表示する
+		//1以上9以下のランダムな値を表示させる為の0以上9未満の乱数を生成する
 		System.out.println("1以上9以下のランダムな値:"+ (num1+1));
-		//0以上9未満の乱数 -10 を表示する
+		//-9以上-1以下のランダムな値を表示させる為の0以上9未満の乱数 -10 を表示する
 		System.out.println("-9以上-1以下のランダムな値:"+ (num2-10));
-		//0以上90未満の乱数 +10 を表示する
+		//10以上99以下のランダムな値を表示させる為の0以上90未満の乱数 +10 を表示する
 		System.out.println("10以上99以下のランダムな値:" + (num3+10));
 	}
 }
